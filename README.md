@@ -151,9 +151,11 @@ npm run dev
 
 ### 7. Open the application
 
-Visit the local development URL:
+After starting the frontend locally, open:
 
-[http://localhost:5173](http://localhost:5173)
+http://localhost:5173
+
+Note: This URL is for local development only. The application must be running on your computer to access it.
 
 You can now upload a PDF and ask questions about its contents.
 
