@@ -1,0 +1,27 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/docuexplain?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
+    username: ${DB_USERNAME:docuexplain}
+    password: ${DB_PASSWORD:docuexplain_dev_password}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+  servlet:
+    multipart:
+      max-file-size: 30MB
+      max-request-size: 30MB
+
+
+ai:
+  base-url: ${AI_BASE_URL:http://localhost:11434/v1}
+  chat-model: ${AI_CHAT_MODEL:llama3.2:3b}
+  embedding-model: ${AI_EMBEDDING_MODEL:nomic-embed-text}
+  api-key: ${AI_API_KEY:ollama}
+
+
+rag:
+  min-similarity: ${RAG_MIN_SIMILARITY:0.30}
+  top-k: ${RAG_TOP_K:8}

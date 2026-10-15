@@ -1,0 +1,13 @@
+com\docuexplain\ChatMessage.class
+com\docuexplain\DocumentChunk.class
+com\docuexplain\DocuExplainApplication.class
+com\docuexplain\RagService$1Ranked.class
+com\docuexplain\RagService.class
+com\docuexplain\ApiController.class
+com\docuexplain\DocumentRepository.class
+com\docuexplain\ApiController$Question.class
+com\docuexplain\ApiErrors.class
+com\docuexplain\DocumentRecord.class
+com\docuexplain\ChunkRepository.class
+com\docuexplain\AiService.class
+com\docuexplain\ChatRepository.class
